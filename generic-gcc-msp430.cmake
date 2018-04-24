@@ -277,7 +277,6 @@ set(CMAKE_SYSTEM_INCLUDE_PATH "${CMAKE_FIND_ROOT_PATH}/include")
 set(CMAKE_SYSTEM_LIBRARY_PATH "${CMAKE_FIND_ROOT_PATH}/lib")
 include_directories("${CMAKE_FIND_ROOT_PATH}/include")
 link_directories("${CMAKE_FIND_ROOT_PATH}/include")
-message(STATUS "Current CMAKE_SYSTEM_INCLUDE_PATH: ${CMAKE_SYSTEM_INCLUDE_PATH}")
 
 
 
