@@ -10,6 +10,7 @@
 Set environment variable *MSP430_FIND_ROOT_PATH* to the installed msp430-gcc-opensource toolchain, eg: 
 
     export MSP430_FIND_ROOT_PATH=~/toolchains/msp430_gcc
+    export PATH="${MSP430_FIND_ROOT_PATH}/bin:${PATH}"
 
 in ```~/.profile``` file
 
